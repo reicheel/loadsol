@@ -2,8 +2,8 @@ import os
 import shutil
 
 # Paths to original files and destination for renamed files
-original_dir = r"C:\Users\reicheel\OneDrive - University of North Carolina at Chapel Hill\__Study Data\cam_eeg_data\sub-CAM_032\loadsol\original files"
-destination_dir = r"C:\Users\reicheel\OneDrive - University of North Carolina at Chapel Hill\__Study Data\cam_eeg_data\sub-CAM_032\loadsol"
+original_dir = r"C:\filepath\original files"
+destination_dir = r"C:\filepath"
 
 # Function to rename .pdo and .ascii files
 def rename_files():

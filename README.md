@@ -1,5 +1,5 @@
 # loadsol
-Current project to automate loadsol cropping, processing, and analysis.
+Current project to quickly crop, processing, and analyze loadsol data. Scripts built for DVJ and single leg hop. 
 
 Standard Operating Procedure (SOP) for Using the DVJ Analysis Script
 Objective

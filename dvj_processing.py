@@ -10,7 +10,7 @@ from pykalman import KalmanFilter
 import matplotlib
 matplotlib.use('Qt5Agg')  # Force TkAgg backend
 
-BASE_DIR = r"C:\\Users\\reicheel\\OneDrive - University of North Carolina at Chapel Hill\\__Study Data\\cam_eeg_data"
+BASE_DIR = r"C:\\filepath"
 
 def get_participant_path(participant_id, subfolder="loadsol"):
     return os.path.join(BASE_DIR, participant_id, subfolder)
@@ -316,12 +316,12 @@ def plot_waveforms(trial_data, output_dir, aclr_limb='Left'):
 ################ Main Script #################
 if __name__ == "__main__":
     # Participant-specific information
-    participant_id = "sub-CAM_001"
+    participant_id = "subject-001"
     aclr_limb = "Right"  # Specify ACLR limb: "Left" or "Right"
     weight = 535  # Participant weight in Newtons
 
     # Input file information
-    file_names = ["Dvj t1.txt", "Dvj t2.txt", "Dvj t3.txt", "Dvj t5.txt", "Dvj t6.txt"]
+    file_names = ["Dvj t1.txt", "Dvj t2.txt", "Dvj t3.txt", "Dvj t5.txt", "Dvj t5.txt"] #use renaming script to automate this from pdo files
     output_dir = get_participant_path(participant_id, "loadsol/outputs")
 
     # Initialize variables

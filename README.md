@@ -1,6 +1,8 @@
 # loadsol
 Current project to quickly crop, processing, and analyze loadsol data. Scripts built for DVJ and single leg hop. 
 
+Use the rename script to pull the trial info from the ascii file to rename both the pdo and ascii files so you know what file you're working with an not random numbers. This script can run in most python enrvironments. 
+
 Standard Operating Procedure (SOP) for Using the DVJ Analysis Script
 Objective
 This SOP provides a step-by-step guide to set up the environment, execute the script, and modify it for specific datasets.

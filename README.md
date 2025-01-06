@@ -9,12 +9,12 @@ This SOP provides a step-by-step guide to set up the environment, execute the sc
 ________________________________________
 Prerequisites
 1.	System Requirements:
-o	Operating System: Windows/macOS/Linux
-o	Python 3.9 or higher
-o	At least 8GB of RAM
+Operating System: Windows/macOS/Linux
+Python 3.9 or higher
+
 2.	Software Requirements:
-o	Anaconda distribution for Python
-o	Basic familiarity with terminal commands
+Anaconda distribution for Python
+Basic familiarity with terminal commands
 ________________________________________
 Step 1: Installing Required Software
 1.	Install Anaconda:
@@ -45,14 +45,21 @@ Cd "C:\file path"
 4.	Execute the Script:
 python dvj_processing.py
 5.	Follow Prompts:
-o	The script will guide you through cropping the data manually using plots.
-o	Select regions of interest using the mouse and confirm selections in the terminal.
-o	You have to exit out of the plot to see the prompts in the terminal. 
+The script will guide you through cropping the data manually using plots.
+Select regions of interest using the mouse and confirm selections in the terminal.
+You have to exit out of the plot to see the prompts in the terminal. 
 ________________________________________
 Step 4: Outputs
 1.	Cropped Data:
-o	Saved as CSV files in the output directory with the _trimmed suffix.
+Saved as CSV files in the output directory with the _trimmed suffix.
 2.	Metrics:
-o	Saved as drop_vertical_jump_metrics.csv in the output directory.
+Saved as drop_vertical_jump_metrics.csv in the output directory.
 3.	Plots:
-o	Phase plots and normalized waveforms are saved as .png files in the output directory.
+Phase plots and normalized waveforms are saved as .png files in the output directory.
+![ACLR_SLH_Waveform_Right](https://github.com/user-attachments/assets/4cb5da22-39cf-4418-86a7-dfa98207be15)
+![Avg SLH Waveforms](https://github.com/user-attachments/assets/4163b02c-cdd1-44c6-8291-1ea22e0a59ca)
+![Dvj t1_phases](https://github.com/user-attachments/assets/64f493ab-d493-4560-8136-bedf1dd37be9)
+
+
+
+
